@@ -1,0 +1,79 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+}
+
+.title{
+    height: 10%;
+}
+
+.main{
+    width: 900px;
+    height: 650px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 100px;
+    background-color: pink;
+}
+
+.pro{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-left: 50px;
+}
+
+#ProfileDiv{
+    display: flex;
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 40px;
+}
+
+ul{
+    list-style-type: none;    
+    width: 200px; 
+    overflow: auto;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+li a:active{
+    background-color: white;    
+    color: red;
+}
+
+li a:hover {  
+    color: red;
+    background-color: aliceblue;
+}
+
+.btnUpdate{
+    color: white;
+    background-color: red;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.styInput{
+    width: 500px;
+    height: 25px;
+}
+
+img{
+    width: 100px;
+    height: 100px; 
+    border-radius:50%;
+}
+
+.imgavt{
+    margin-left: 200px;
+}
+
+.chooseavt{
+    margin-left: 150px;
+}
