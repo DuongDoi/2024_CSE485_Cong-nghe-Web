@@ -1,0 +1,8 @@
+.menu{
+    background-color: red;
+    color: red;
+}
+
+li a:hover{
+    color: red;
+}
